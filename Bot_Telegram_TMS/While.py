@@ -12,22 +12,24 @@ for n in res:
     print(n)
 '''
 
-
+'''
 def sum_num_square_less_than(n: int) -> int:
     i = 0
+    summa=0
     while i**2 <= n:
-        # обязательно измените значение i, иначе зависнет
-        ...
-    return ...
+        summa+=i
+        i += 1
 
+    return summa
 
+print(sum_num_square_less_than(27))
+'''
 
+def find_k(n: int) -> int:
+    k=(n ** 2) // 3 % 50
+    return k
 
-
-
-
-
-
+print(find_k(33))
 
 
 

@@ -24,14 +24,14 @@ def sum_num_square_less_than(n: int) -> int:
 
 print(sum_num_square_less_than(27))
 '''
-
+'''
 def find_k(n: int) -> int:
-    k=(n ** 2) // 3 % 50
+    k=0
+    while n!=(k**2)//3 % 50:
+        k=k+1
     return k
 
-print(find_k(33))
-
-
+'''
 
 
 

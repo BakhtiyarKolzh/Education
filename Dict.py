@@ -68,23 +68,31 @@ def items_buy(items: list[dict], name: str, quantity: int )->float:
     amount=0
     for item in items:
         if item["name"]==name:
-            to_pay=item["price"]*quantity
+            available=min(item["quantity"],quantity)
+            to_pay=item["price"]*available
+
             if "discount" in item:
-                to_pay -= item["price"] * quantity * item["discount"]
-            amount=to_pay
-            item["quantity"]-=quantity
-            break
+                to_pay -= item["price"] * available * item["discount"]
+            amount+=to_pay
+            item["quantity"]-=available
+            quantity-=available
+
     return amount
 
 
 
 f=open("items.json")
 items=json.load(f)
-
-items.sort(key=lambda x: x["price"])
+for item in items:
+    if "discount" not in item:
+        item["discount"]=0
+items.sort(key=lambda x: x["price"] - x["price"]*x["discount"])
 
 print(items_buy(items, "Monitor", 15))
 print(items)
+for item in items:
+    if item["name"]=="Monitor":
+        print(item)
 
 # print(items_buy(items, "Keyboard", 7))
 # print(items)

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Monitor",
+    "type": "monitor",
+    "price": 100,
+    "quantity": 10
+  },
+  {
+    "name": "Mouse",
+    "type": "accessory",
+    "price": 10,
+    "quantity": 20
+  },
+  {
+    "name": "Keyboard",
+    "type": "accessory",
+    "price": 20,
+    "quantity": 10,
+    "discount": 0.2
+  },
+  {
+    "name": "HDMI Cable",
+    "type": "accessory",
+    "price": 10,
+    "quantity": 10
+  },
+  {
+    "name": "Laptop",
+    "type": "laptop",
+    "price": 1000,
+    "quantity": 5,
+    "discount": 0.15
+  },
+  {
+    "name": "Desktop",
+    "type": "desktop",
+    "price": 1500,
+    "quantity": 5,
+    "discount": 0.1,
+    "accessories": [
+      {
+        "name": "HDMI Cable",
+        "quantity": 1
+      },
+      {
+        "name": "Keyboard",
+        "quantity": 1
+      },
+      {
+        "name": "Mouse",
+        "quantity": 1
+      }
+    ]
+  },
+    {
+        "name": "Monitor Stand",
+        "type": "accessory",
+        "price": 15,
+        "quantity": 12
+    },
+    {
+      "name": "Laptop Stand",
+      "type": "accessory",
+      "price": 12,
+      "quantity": 12
+    },
+    {
+      "name": "Laptop",
+      "type": "laptop",
+      "price": 1200,
+      "quantity": 5,
+      "discount": 0.15,
+      "accessories": [
+        {
+          "name": "Laptop Stand",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+        "name": "Desktop",
+        "type": "desktop",
+        "price": 1700,
+        "quantity": 5,
+        "discount": 0.1,
+        "accessories": [
+            {
+            "name": "Monitor Stand",
+            "quantity": 1
+            },
+            {
+            "name": "Keyboard",
+            "quantity": 1
+            },
+            {
+            "name": "Mouse",
+            "quantity": 1
+            }
+        ]
+      },
+    {
+        "name": "Monitor",
+        "type": "monitor",
+        "price": 120,
+        "quantity": 10,
+        "discount": 0.5
+    }
+]
+
+

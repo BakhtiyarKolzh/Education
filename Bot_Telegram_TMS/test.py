@@ -92,6 +92,17 @@
 #
 # count_letters(s)
 
+def findDog(x):
+    if '' in x:
+        return True
+    else:
+        return False
+
+
+
+x='Is there a dog here?'
+print(findDog(x))
+
 
 
 

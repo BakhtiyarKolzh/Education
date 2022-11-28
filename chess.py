@@ -12,4 +12,3 @@ def is_rook_move_ok(x1: int, y1: int, x2: int, y2: int) -> bool:
 
 res=is_rook_move_ok(x1,y1,x2,y2)
 print(res)
-#####

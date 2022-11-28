@@ -35,6 +35,7 @@ for item in items:
         
 """
 ########################################################################################################################
+
 import json
 
 # Перебор в цикле
@@ -50,8 +51,6 @@ def items_quantity(items: list[dict], name: str)-> int:
         if item["name"]==name:
             s+= item["quantity"]
     return s
-
-
 
 f=open("items.json")
 items=json.load(f)
@@ -98,6 +97,6 @@ for item in items:
 # print(items)
 
 
-
+########################################################################################################################
 
 

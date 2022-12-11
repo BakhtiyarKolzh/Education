@@ -73,29 +73,69 @@ turtle.done()
 """
 ########################################################################################################################
 ########################################################################################################################
+"""
 import math
 
 
-def drawHouse(turtle, length):
-    for i in range(2):
-        turtle.speed(10)
-        turtle.pensize(5)
+def main(length):
+    count=0
+    while count<=5:
+        massive_by_row(length)
+        count+=1
+    turtle.down()
+    return True
 
+
+def massive_by_row(length):
+    num = 2
+    turtle.speed(6)
+    turtle.pensize(3)
+    turtle.color(1, 0, 0)
+
+    while num<=10:
+        create_houses(length)
+
+        turtle.penup()
+        turtle.home()
+        turtle.right(90)
+        turtle.forward(length*num)
+        turtle.left(90)
+        num +=2
+        turtle.down()
+    turtle.down()
+    return True
+
+
+
+def create_houses(length):
+    count=1
+    while count<=5:
         for i in range(4):
             turtle.forward(length)
             turtle.right(90)
 
         turtle.left(45)
-        turtle.forward(length * math.sqrt(2))
+        turtle.forward(length * math.sqrt(0.5))
         turtle.right(90)
-        turtle.forward(length * math.sqrt(2))
-        turtle.right(135)
-        for i in range(4):
-            turtle.forward(length)
-            turtle.left(90)
+        turtle.forward(length * math.sqrt(0.5))
+        turtle.left(45)
 
-    drawHouse(turtle,80)
+        turtle.penup()
+        turtle.forward(10)
+        count+=1
+        turtle.down()
+    return True
 
-    turtle.done()
-####dfsdfsfasasas
+main(20)
+
+"""
+
+
+
+
+
+
+
+
+
 

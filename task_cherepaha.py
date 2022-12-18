@@ -79,7 +79,7 @@ import math
 def massive_by_row(length):
     num = 2
     turtle.speed(10)
-    for i in range(5):
+    for k in range(5):
         create_houses(length)
 
         turtle.penup()
@@ -92,7 +92,7 @@ def massive_by_row(length):
 
 def create_houses(length):
     count=1
-    for i in range(5):
+    for j in range(5):
         for i in range(4):
             turtle.forward(length)
             turtle.right(90)

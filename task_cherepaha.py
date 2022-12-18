@@ -73,26 +73,13 @@ turtle.done()
 """
 ########################################################################################################################
 ########################################################################################################################
-"""
+
 import math
-
-
-def main(length):
-    count=0
-    while count<=5:
-        massive_by_row(length)
-        count+=1
-    turtle.down()
-    return True
-
 
 def massive_by_row(length):
     num = 2
-    turtle.speed(6)
-    turtle.pensize(3)
-    turtle.color(1, 0, 0)
-
-    while num<=10:
+    turtle.speed(10)
+    for i in range(5):
         create_houses(length)
 
         turtle.penup()
@@ -101,15 +88,11 @@ def massive_by_row(length):
         turtle.forward(length*num)
         turtle.left(90)
         num +=2
-        turtle.down()
-    turtle.down()
-    return True
-
-
+        turtle.pendown()
 
 def create_houses(length):
     count=1
-    while count<=5:
+    for i in range(5):
         for i in range(4):
             turtle.forward(length)
             turtle.right(90)
@@ -123,13 +106,11 @@ def create_houses(length):
         turtle.penup()
         turtle.forward(10)
         count+=1
-        turtle.down()
-    return True
+        turtle.pendown()
 
-main(20)
 
-"""
-
+massive_by_row(20)
+turtle.exitonclick()
 
 
 

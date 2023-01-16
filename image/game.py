@@ -28,45 +28,38 @@ heading_right = True
 background_x = -100
 
 level = [
-    [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-     0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1,
-     1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-     0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0,
-     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0,
-     0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0]
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+    [1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0],
+    [0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ]
 
 platforms = list()
+platforms2=list()
 brick_size = size[1] // 11
 
 for i in range(len(level)):
     for j in range(len(level[i])):
         if level[i][j] == 1:
             platforms.append(pygame.Rect(j * brick_size, i * brick_size, brick_size, brick_size))
+        if level[i][j] == 2:
+            platforms2.append(pygame.Rect(j * brick_size, i * brick_size, brick_size, brick_size))
         if level[i][j] == 7:
             x, y = j * brick_size, i * brick_size
 
-# platforms = [
-#     pygame.Rect(0, 0, 40, 500),
-#     pygame.Rect(0, 460, 500, 40),
-#     pygame.Rect(0, 100, 400, 40)
-# ]
+fire = False
+
+fire_x, fire_y = 50, 50
+fire_dx = 10
+fire_dy = 0
+fire_counter = 0
 
 game_over = False
 while not game_over:
@@ -81,13 +74,13 @@ while not game_over:
 
     x = x + dx
     heli_rect = pygame.Rect(x, y, screen_width // 10, screen_width // 12)
-    for platform in platforms:
+    for platform in platforms +platforms2:
         if heli_rect.colliderect(platform):
             x = x - dx
 
     y = y + dy
     heli_rect = pygame.Rect(x, y, screen_width // 10, screen_width // 12)
-    for platform in platforms:
+    for platform in platforms +platforms2:
         if heli_rect.colliderect(platform):
             y = y - dy
             dy = 0
@@ -97,6 +90,21 @@ while not game_over:
 
     if x + background_x < size[0] * 1 / 4:
         background_x = size[0] * 1 / 4 - x
+
+    if fire:
+        fire_counter -= 1
+        if fire_counter <= 0:
+            fire = False
+        fire_x += fire_dx
+        fire_y += fire_dy
+        for platform in platforms:
+            if platform.collidepoint(fire_x, fire_y):
+                fire=False
+        for platform in platforms2:
+            if platform.collidepoint(fire_x, fire_y):
+                fire=False
+                platforms2.remove(platform)
+
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -111,7 +119,18 @@ while not game_over:
             if event.key == pygame.K_UP:
                 flying_up = True
             if event.key == pygame.K_DOWN:
-                dy = 10
+                dy = 7
+            if event.key == pygame.K_SPACE:
+                if not fire:
+                    fire = True
+                    fire_x = x + screen_width // 20
+                    fire_y = y + screen_width // 20
+                    fire_counter=40
+                    if heading_right:
+                        fire_dx = 10
+                    else:
+                        fire_dx = -10
+
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_RIGHT:
                 if dx > 0:
@@ -135,10 +154,20 @@ while not game_over:
                                                platform.width,
                                                platform.height))
 
+
+    for platform in platforms2:
+        pygame.draw.rect(screen, (150, 250, 150), (platform.x + background_x,
+                                               platform.y,
+                                               platform.width,
+                                               platform.height))
+
     if heli_right:
         screen.blit(heli_right, (x + background_x, y))
     else:
         screen.blit(heli_left, (x + background_x, y))
+
+    if fire:
+        pygame.draw.circle(screen, (120, 0, 0), (fire_x + background_x, fire_y), 5)
 
     pygame.display.flip()
     clock.tick(10)

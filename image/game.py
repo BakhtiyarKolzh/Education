@@ -173,3 +173,6 @@ while not game_over:
     clock.tick(10)
 
 pygame.quit()
+
+
+# то для
